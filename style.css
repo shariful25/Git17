@@ -17,7 +17,7 @@ a{
 }
 .fixwidth{
     
-    width: 1160px;
+    max-width: 1160px;
     margin: auto;
 
 }
@@ -341,6 +341,33 @@ a{
 }
 .witem1{
     margin-left: 80px;
+    transition: .4s;
+    box-sizing: border-box;
+}
+.witem1:hover{
+   transform: rotate(360deg) scale(1.1);
+}
+.witem2{
+    transition: .4s;
+    box-sizing: border-box;
+}
+.witem2:hover{
+   transform: rotate(60deg) skew(-10deg);
+}
+.witem3{
+   
+    transition: .4s;
+    box-sizing: border-box;
+}
+.witem3:hover{
+   transform:translateY(-20px) scale(1.1);
+}
+.witem4{
+    transition: .4s;
+    box-sizing: border-box;
+}
+.witem4:hover{
+   transform: rotate(60deg) skew(-10deg);
 }
 /* team css */
 .teamarea{
